@@ -21,36 +21,6 @@ Built with React, Vite, and Tailwind CSS.
 - **React Router DOM v6**: Declarative routing for React applications.
 - **Heroicons**: Beautiful hand-crafted SVG icons.
 
-## Getting Started
-
-### Prerequisites
-- Node.js (v20.19+ or v22.12+ recommended by Vite)
-
-### Installation
-
-1. Install all dependencies:
-```bash
-npm install
-```
-
-2. Start the development server:
-```bash
-npm start 
-# or 
-npm run dev
-```
-
-The application will be available at `http://localhost:5173`.
-
-### Building for Production
-
-To create a production build:
-```bash
-npm run build
-```
-
-This will generate a `dist/` directory containing the optimized static assets.
-
 ## Project Architecture
 
 ```text
