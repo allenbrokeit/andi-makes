@@ -25,7 +25,7 @@ export default function Services() {
                         </h3>
                         <div className="text-3xl font-extrabold text-blue-600">
                             <span className="text-xl mr-1">₱</span>
-                            {service.price.toFixed(2)}
+                            {service.price}
                         </div>
                     </Card>
                 ))}
