@@ -1,5 +1,4 @@
 import { Link, useLocation } from 'react-router-dom';
-import AndiMakesLogo from './icons/AndiMakesLogo';
 
 export default function Navbar() {
     const location = useLocation();
@@ -13,14 +12,7 @@ export default function Navbar() {
     return (
         <nav className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-16 items-center">
-
-                    {/* Logo Section */}
-                    <div className="relative w-40 md:w-56 h-full flex shrink-0">
-                        <Link to="/" className="absolute top-1 -left-8 sm:-left-16 lg:-left-24 group z-50">
-                            <AndiMakesLogo className="h-32 md:h-40 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-lg" />
-                        </Link>
-                    </div>
+                <div className="flex justify-end h-16 items-center">
 
                     {/* Navigation Links */}
                     <div className="hidden sm:flex sm:items-center sm:gap-8">
