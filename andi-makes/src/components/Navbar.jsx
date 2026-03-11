@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { PencilSquareIcon } from '@heroicons/react/24/solid';
+import AndiMakesLogo from './icons/AndiMakesLogo';
 
 export default function Navbar() {
     const location = useLocation();
@@ -16,12 +16,11 @@ export default function Navbar() {
                 <div className="flex justify-between h-16 items-center">
 
                     {/* Logo Section */}
-                    <Link to="/" className="flex items-center gap-2 group">
-                        <PencilSquareIcon className="h-8 w-8 text-blue-600 group-hover:text-blue-700 transition-colors" />
-                        <span className="font-bold text-xl text-gray-900 tracking-tight">
-                            andi makes
-                        </span>
-                    </Link>
+                    <div className="relative w-40 md:w-56 h-full flex shrink-0">
+                        <Link to="/" className="absolute top-1 -left-4 sm:-left-8 lg:-left-12 group z-50">
+                            <AndiMakesLogo className="h-32 md:h-40 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-lg" />
+                        </Link>
+                    </div>
 
                     {/* Navigation Links */}
                     <div className="hidden sm:flex sm:items-center sm:gap-8">
