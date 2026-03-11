@@ -8,10 +8,10 @@ export default function Layout() {
         <div className="min-h-screen flex flex-col bg-[var(--color-brand-light-blue)] relative">
             <Navbar />
             
-            {/* Absolute Logo Top Left Beneath Navbar */}
-            <div className="absolute top-20 left-0 sm:left-2 z-40">
+            {/* Absolute Logo Top Left Beneath or Overlapping Navbar */}
+            <div className="absolute top-2 md:top-20 left-2 z-[60] md:z-40">
                 <Link to="/" className="group block">
-                    <AndiMakesLogo className="w-32 md:w-48 h-auto object-contain transition-transform group-hover:scale-105 drop-shadow-xl" />
+                    <AndiMakesLogo className="w-24 md:w-48 h-auto object-contain transition-transform group-hover:scale-105 drop-shadow-xl" />
                 </Link>
             </div>
 

@@ -11,15 +11,15 @@ export default function Footer() {
                     &copy; {new Date().getFullYear()} Andi Makes. All rights reserved.
                 </div>
 
-                <div className="flex items-center justify-end gap-3">
-                    <span className="text-sm font-medium text-blue-100">
+                <div className="flex flex-wrap items-center justify-center md:justify-end gap-3">
+                    <span className="text-sm font-medium text-blue-100 text-center">
                         Learn more about our services or contact us at: 
                     </span>
                     <a
                         href="https://www.facebook.com/profile.php?id=61586001636539"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors group"
+                        className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors group shrink-0"
                     >
                         <AndiChibiLogo className="h-10 w-10 object-cover rounded-full group-hover:scale-110 transition-transform bg-white/10 p-0.5" />
                         <span className="text-sm font-medium">Facebook</span>
