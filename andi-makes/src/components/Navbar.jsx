@@ -17,7 +17,7 @@ export default function Navbar() {
 
                     {/* Logo Section */}
                     <div className="relative w-40 md:w-56 h-full flex shrink-0">
-                        <Link to="/" className="absolute top-1 -left-4 sm:-left-8 lg:-left-12 group z-50">
+                        <Link to="/" className="absolute top-1 -left-8 sm:-left-16 lg:-left-24 group z-50">
                             <AndiMakesLogo className="h-32 md:h-40 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-lg" />
                         </Link>
                     </div>
