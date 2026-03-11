@@ -11,7 +11,10 @@ export default function Footer() {
                     &copy; {new Date().getFullYear()} Andi Makes. All rights reserved.
                 </div>
 
-                <div className="flex items-center justify-end">
+                <div className="flex items-center justify-end gap-3">
+                    <span className="text-sm font-medium text-blue-100">
+                        Learn more about our services or contact us at: 
+                    </span>
                     <a
                         href="https://www.facebook.com/profile.php?id=61586001636539"
                         target="_blank"
